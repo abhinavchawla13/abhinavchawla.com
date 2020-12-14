@@ -1,0 +1,18 @@
+#balloon2  {
+    min-width: 120px;
+    position: absolute;
+    bottom: -20vh;
+    width: 12%;
+    color: #f3bdff;
+    right: 15%;
+    overflow: hidden;
+}
+
+.front {
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 2;
+}

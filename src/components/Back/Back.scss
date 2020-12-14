@@ -1,0 +1,38 @@
+#base-cloud {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#balloon1  {
+    min-width: 120px;
+    position: absolute;
+    bottom: -20vh;
+    width: 8%;
+    left: 15%;
+    overflow: hidden;
+}
+
+#cloud1  {
+    min-width: 120px;
+    position: absolute;
+    top: 12vh;
+    width: 10%;
+    left: 33%;
+}
+
+#cloud2  {
+    min-width: 120px;
+    position: absolute;
+    top: 7vh;
+    width: 7%;
+    right: 37%;
+}
+
+.back {
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+}

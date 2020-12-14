@@ -1,5 +1,7 @@
 <script>
 import Island from "../../components/Island/Island";
+import Back from "../../components/Back/Back";
+import Front from "../../components/Front/Front";
 import gsap from "gsap";
 
 export default {
@@ -8,15 +10,18 @@ export default {
     msg: String
   },
   components: {
-    Island
+    Island,
+    Back,
+    Front
   },
   methods: {
     // to move the island
     mousemoveEffectIsland: function(e) {
-      let xAxis = (window.innerWidth / 2 - e.pageX) / 120;
+      let xAxis = (window.innerWidth / 2 - e.pageX) / 100;
       this.$refs.island.$el.style.left = xAxis + "px";
     }
   },
+
   mounted() {
     const { island } = this.$refs;
 
@@ -28,10 +33,11 @@ export default {
       }
     });
 
-    tl.to(island.$el, { duration: 3, y: 40 }).to(island.$el, {
-      duration: 3,
-      y: 0
-    });
+    tl.to(island.$el, { duration: 3, y: 30 })
+      .to(island.$el, {
+        duration: 3,
+          y: 0
+      });
 
     // let islandUpDownAnimation = gsap.to(island.$el, {
     //   x: 200,
