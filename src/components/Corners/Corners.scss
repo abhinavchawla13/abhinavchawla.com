@@ -1,0 +1,75 @@
+// @import "../../css/main.scss";
+
+.top-left-corner {
+    position: absolute;
+  }
+  
+  .logo-box {
+    background: rgba(255, 255, 255, .15);
+    display: inline-flex;
+    width: 220px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .logo-box .name {
+    width: calc(100% - 120px);
+    padding: 25px 60px;
+  }
+  
+  .social-icons-box {
+    padding-top: 6px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+  }
+  
+  .social-icon {
+    width: 20px;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 24px;
+    -webkit-transition: background-color 400ms linear;
+    -ms-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    cursor: pointer;
+  }
+  
+  .social-icon:hover {
+    background-color: #ffffff3b;
+    padding: 10px;
+    border-radius: 24px;
+  }
+  
+  .social-hr {
+    width: 40px;
+    border: 0;
+    border-top: 2px solid white;
+    float: left;
+    margin-top: 21px;
+    margin-right: 12px;
+    opacity: 0.5;
+  }
+
+  .bottom-right-corner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .bold-white-space {
+    letter-spacing: 1px;
+    color: #00000040;
+    font-size: 0.7rem;
+    z-index: 1;
+    position: relative;
+    margin: 5px 20px;
+  }
+  
+  .bold-white-space.bottom {
+     margin-bottom: 12px;
+     letter-spacing: 0px;
+    font-size: 0.6rem
+  }

@@ -2,6 +2,7 @@
 import Island from "../../components/Island/Island";
 import Back from "../../components/Back/Back";
 import Front from "../../components/Front/Front";
+import Corners from "../../components/Corners/Corners";
 import gsap from "gsap";
 
 export default {
@@ -12,7 +13,8 @@ export default {
   components: {
     Island,
     Back,
-    Front
+    Front,
+    Corners
   },
   methods: {
     // to move the island
@@ -39,13 +41,6 @@ export default {
           y: 0
       });
 
-    // let islandUpDownAnimation = gsap.to(island.$el, {
-    //   x: 200,
-    //   backgroundColor: "red",
-    //   repeat: -1
-    // });
-
-    // islandUpDownAnimation.play();
   }
 };
 </script>

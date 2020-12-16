@@ -1,7 +1,7 @@
 #balloon2  {
     min-width: 120px;
     position: absolute;
-    bottom: -20vh;
+    bottom: -30vh;
     width: 12%;
     color: #f3bdff;
     right: 15%;
@@ -15,4 +15,5 @@
     left: 0px;
     position: fixed;
     z-index: 2;
+    pointer-events:none;
 }
