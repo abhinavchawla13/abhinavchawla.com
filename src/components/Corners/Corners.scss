@@ -2,6 +2,7 @@
 
 .top-left-corner {
     position: absolute;
+    pointer-events: all;
   }
   
   .logo-box {
@@ -13,6 +14,7 @@
   
   .logo-box .name {
     width: calc(100% - 120px);
+    align-self: center;
     padding: 25px 60px;
   }
   
@@ -28,6 +30,7 @@
   
   .social-icon {
     width: 20px;
+    align-self: center;
     background-color: transparent;
     padding: 10px;
     border-radius: 24px;
@@ -57,6 +60,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
+    pointer-events: all;
   }
 
   .bold-white-space {
@@ -73,3 +77,52 @@
      letter-spacing: 0px;
     font-size: 0.6rem
   }
+
+  .corners {
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    width: 100vw;
+    pointer-events: none;
+  }
+
+  .top-right-corner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    pointer-events: all;
+  }
+
+  .highlight-icon-bg {
+    margin-top: 25px;
+    background-color: #ffffff18;
+    padding: 15px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-right: 25px;
+    animation: pulse 5s;
+    -moz-animation: pulse 5s infinite; /* Firefox */
+    -webkit-animation: pulse 5s infinite; /* Safari and Chrome */
+  }
+
+  .highlight-icon {
+    width: 30px;
+  }
+
+  .close-button{
+    display: none;
+    opacity: 0;
+  }
+
+ @-moz-keyframes pulse /* Firefox */ {
+    0% {background: #ffffff18;}
+    50% {background: #ffffff67;}
+    100% {background: #ffffff18;}
+}
+
+@-webkit-keyframes pulse /* Safari and Chrome */ {
+    0% {background: #ffffff18;}
+    50% {background: #ffffff67;}
+    100% {background: #ffffff18;}
+
+}

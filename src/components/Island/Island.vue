@@ -2,40 +2,38 @@
 <style scoped src="./Island.scss" lang="scss"></style>
 
 <script>
-import ImageMap from "image-map";
 import gsap from "gsap";
+import ImageMap from "image-map";
+import eventBus from "@/event/eventbus.js";
+import imagesLoaded from 'vue-images-loaded';
 
 export default {
   name: "Island",
-  props: {
-    msg: String
+  directives: {
+        imagesLoaded
   },
   methods: {
     momentClicked(moment) {
-      console.log("moment", moment);
-      const { island } = this.$refs;
+      eventBus.$emit("openInfoBox", {moment});
+      eventBus.$emit("showBackButton");
 
-      // Create a timeline
-      let islandDissolveTimeline = gsap.timeline({
-        defaults: {
-          ease: "power1.in"
-        }
-      });
-      islandDissolveTimeline.to(island, {duration: 2, scale: 0.3, opacity: 0.3});
+      const { island } = this.$refs;
+      gsap.to(island, {duration: 1,  ease: "power1.out", opacity: 0.5});
     },
-
-    backToMainIsland() {
+    showIsland() {
       const { island } = this.$refs;
-
-      // Create a timeline
-      let islandUndissolveTimeline = gsap.timeline({
-        defaults: {
-          ease: "power1.out"
-        }
-      });
-      // islandUndissolveTimeline.to(island, {duration: 4, transform: 'translateY(-93vh)', scale: 1, opacity: 1, display: 'block'});
-      islandUndissolveTimeline.to(island, {duration: 2, scale: 1, opacity: 1});
+      gsap.to(island, {duration: 1, ease: "power1.in", opacity: 1});
+    },
+    imageProgress(instance, image) {
+        const result = image.isLoaded ? 'loaded' : 'broken';
+        console.log( 'image is ' + result + ' for ' + image.img.src );
     }
+
+  },
+  created() {
+     eventBus.$on("showIsland", () => {
+      this.showIsland();
+    })
   },
   mounted() {
     ImageMap('img[usemap]', 0);

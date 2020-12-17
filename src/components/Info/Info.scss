@@ -1,0 +1,12 @@
+.info-bg {
+    // backdrop-filter: blur(10px);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0px;
+    background-image: -webkit-linear-gradient(top, #f4b2a7 40%, #ffbbf3 100%);
+    z-index: 5;
+    opacity: 0;
+    pointer-events: none;
+  }

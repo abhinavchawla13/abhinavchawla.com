@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <Home msg="Welcome to Your Vue.js App" />
+    <Home />
+    <Load />
   </div>
 </template>
 
 
 <script>
 import Home from "./pages/Home/Home.vue";
+import Load from "./pages/Load/Load.vue";
 
 export default {
   name: "App",
   components: {
-    Home
+    Home,
+    Load
   }
 };
 </script>

@@ -4,9 +4,6 @@
 <script>
 export default {
   name: "Generic",
-  props: {
-    msg: String
-  },
   methods: {}
 };
 </script>

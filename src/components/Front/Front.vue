@@ -6,9 +6,6 @@ import gsap from "gsap";
 
 export default {
   name: "Front",
-  props: {
-    msg: String
-  },
   methods: {},
   mounted() {
     const { balloon2 } = this.$refs;

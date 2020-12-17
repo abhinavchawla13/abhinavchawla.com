@@ -1,18 +1,16 @@
-<div class="home" @mousemove="mousemoveEffectIsland">
+<div class="home" @mousemove="mousemoveEffectIsland"  v-images-loaded:on.progress="imageProgress">
 
     <!-- All the corners, includes top-left, bottom-right -->
     <Corners />
 
 
     <div class="island-container">
-        <div>
-            <!-- Main floating island -->
-            <Island id="island" ref="island" />
-
-        </div>
-
-
+        <!-- Main floating island -->
+        <Island id="island" ref="island" />
     </div>
+
+    <!-- Info box -->
+    <Info />
 
     <!-- Base back layer clouds and balloon -->
     <Back />

@@ -1,0 +1,38 @@
+.loader {
+  background-image: -webkit-linear-gradient(top, #f4b2a7 40%, #ffbbf3 100%);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-bar {
+  width: 50vw;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.66);
+}
+
+
+// .loader-bar {
+//   left:50%;
+//   border-bottom:4px solid red;
+//   width:0%;
+//   text-align:center;
+//   animation: line 2s linear forwards;
+// }
+
+// @keyframes line {
+//   from {
+//     left:50%;
+//     width:0%;
+//   }
+//   to {
+//     left:5%;
+//     width:90%;
+//   }
+// }

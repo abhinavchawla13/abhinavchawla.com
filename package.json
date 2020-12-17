@@ -12,7 +12,8 @@
     "gsap": "^3.5.1",
     "image-map": "^2.0.1",
     "image-map-resizer": "^1.0.10",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-images-loaded": "^1.1.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

@@ -1,5 +1,5 @@
-<div >
-    <img ref="island" src="../../assets/images/main-cut.png" style="width: 100%; position: relative;" usemap="#image-map">
+<div v-images-loaded:on.progress="imageProgress">
+    <img ref="island" src="../../assets/images/main-cut-3.png" style="width: 100%; position: relative;" usemap="#image-map">
 
     <map name="image-map">
         <area @click="momentClicked('school')" style="cursor: pointer;" coords="680,476,630,554,626,670,649,693,649,736,731,784,785,749,814,757,901,716,884,581,839,552" shape="poly">
@@ -13,5 +13,4 @@
         <area @click="momentClicked('boat')" style="cursor: pointer;" coords="240,476,217,490,190,517,198,530,223,534,291,511,293,492,273,474" shape="poly">
     </map>
 
-    <!-- <button @click="backToMainIsland()">hello...</button> -->
 </div>

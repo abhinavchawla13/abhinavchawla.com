@@ -1,4 +1,4 @@
-<div>
+<div class="corners">
     <div class="top-left-corner">
         <!-- logo typography -->
         <div class="logo-box">
@@ -17,7 +17,14 @@
         </div>
     </div>
     <div class="bottom-right-corner">
+        
         <p class="bold-white-space">BUILT WITH <del>JAVASCRIPT</del> <b>PASSION</b></p>
         <p class="bold-white-space bottom">© 2020-21, Abhinav Chawla - All rights reserved</p>
+    </div>
+
+    <div class="top-right-corner close-button" ref="closeButton">
+        <div class="highlight-icon-bg">
+            <img  @click="backToMainIsland()" class="highlight-icon" src="../../assets/images/close.png"/>
+        </div>
     </div>
 </div>
