@@ -37,3 +37,32 @@
     position: fixed;
     pointer-events:none;
 }
+
+.info-pulse {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 3px;
+    // color: #ca4295;
+    color: #0043a5;
+    animation: info-pulse 6s ease-in-out infinite;
+    position: absolute;
+    bottom: 4vh;
+    width: 100vw;
+    font-family: "Ilisarniq-Bold";
+    z-index: 10;
+}
+
+@keyframes info-pulse {
+    0% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 0.4;
+    }
+}

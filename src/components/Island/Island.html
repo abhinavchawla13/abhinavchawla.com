@@ -1,5 +1,6 @@
-<div v-images-loaded:on.progress="imageProgress">
-    <img ref="island" src="../../assets/images/main-cut-3.png" style="width: 100%; position: relative;" usemap="#image-map">
+<!-- <div v-images-loaded:on.progress="imageProgress"> -->
+<div >
+    <img ref="island" src="../../assets/images/main-cut-2.png" style="width: 100%; position: relative;" usemap="#image-map"/>
 
     <map name="image-map">
         <area @click="momentClicked('school')" style="cursor: pointer;" coords="680,476,630,554,626,670,649,693,649,736,731,784,785,749,814,757,901,716,884,581,839,552" shape="poly">
@@ -7,10 +8,16 @@
         <area @click="momentClicked('ibm')" style="cursor: pointer;" coords="1161,518,1250,565,1339,524,1324,505,1324,245,1254,207,1167,249" shape="poly">
         <area @click="momentClicked('nasa')" style="cursor: pointer;" coords="1118,166,1064,193,1064,466,1124,495,1157,489,1163,240,1192,226,1192,205" shape="poly">
         <area @click="momentClicked('gftw')" style="cursor: pointer;" coords="1430,583,1446,589,1444,622,1549,678,1636,637,1624,575,1525,523,1446,560" shape="poly">
-        <area @click="momentClicked('directedai')" style="cursor: pointer;" coords="1833,376,1903,349,1954,368,1954,473,1882,509,1830,482" shape="poly">
+        <area @click="momentClicked('dai')" style="cursor: pointer;" coords="1833,376,1903,349,1954,368,1954,473,1882,509,1830,482" shape="poly">
         <area @click="momentClicked('swiftseat')" style="cursor: pointer;" coords="607,276,915,418,1056,352,1056,424,915,505,558,319" shape="poly">
         <area @click="momentClicked('swiftseat')" style="cursor: pointer;" coords="1330,307,1566,427,1768,338,1837,365,1574,504,1417,423,1415,361,1357,332,1326,347" shape="poly">
         <area @click="momentClicked('boat')" style="cursor: pointer;" coords="240,476,217,490,190,517,198,530,223,534,291,511,293,492,273,474" shape="poly">
     </map>
+
+    <img v-bind:src="carImageSrc"
+        ref="car"
+        style="
+            position: absolute;"
+    />
 
 </div>

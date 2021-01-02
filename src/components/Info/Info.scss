@@ -10,3 +10,50 @@
     opacity: 0;
     pointer-events: none;
   }
+
+.main-info {
+
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-left: 10%; 
+  color: #413228;
+
+
+  .main-info-tag {
+    text-transform: uppercase;
+    font-family: "Ilisarniq-Bold";
+    font-size: calc(6px + 1vh);
+    letter-spacing: 1px;
+    margin-bottom: 15%;
+  }
+
+  .main-info-title {
+    font-family: "Canela";
+    font-size: calc(12px + 4vh);
+    margin-bottom: 2%;
+  }
+
+  .main-info-desc {
+    margin-bottom: 10%;
+  }
+
+  .extra-box-1 {
+    padding: 50px 70px 50px 50px;
+    background: #41322824;
+    color: white;
+    width: fit-content;
+    position: absolute;
+    left: 40%;
+    top: 60%;
+  }
+
+  .extra-box-2 {
+    border: 2px solid white;
+    padding: 50px 80px 50px 60px;
+    color: white;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+  }
+}

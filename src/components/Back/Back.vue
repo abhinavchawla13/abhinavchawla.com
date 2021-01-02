@@ -3,10 +3,21 @@
 
 <script>
 import gsap from "gsap";
+import eventBus from "@/event/eventbus.js";
 
 export default {
   name: "Back",
+  data: function(){
+    return {
+      showHelperBool: true,
+    }
+  },
   methods: {},
+  created() {
+    eventBus.$on("hideHelper", () => {
+      this.showHelperBool = false;
+    });
+  },
   mounted() {
     const { balloon1, cloud1, cloud2 } = this.$refs;
 

@@ -57,7 +57,7 @@ export default {
 
     tl.to(island.$el, { duration: 3, y: 30 })
       .to(island.$el, {
-        duration: 3,
+        duration: 5,
           y: 0
       });
 

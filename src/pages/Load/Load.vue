@@ -8,6 +8,7 @@ export default {
   methods: {
     completeLoad() {
       const { loaderLeft, loaderRight, loader } = this.$refs;
+       eventBus.$emit("adjustCar", {});
       gsap.to(loaderLeft, { duration: 3, scaleX: 1 });
       gsap.to(loaderRight, { duration: 3, scaleX: 1 });
       gsap
