@@ -14,157 +14,149 @@ export default {
       windowHeight: window.innerHeight,
       windowWidth: window.innerWidth,
       carBaseWidthPerc: 4,
-      carBaseStartTopPerc: 72,
+      carBaseStartTopPerc: 73,
       carBaseStartLeftPerc: 32,
       currentPosition: 'start',
       carDirection: 'east',
       carImageSrc: '',
       path: {
         start: {
-          original: [32, 72],
+          original: [32, 73],
           school: [
             {
               direction: 'east',
-              coords: [38, 66]
+              coords: [38, 67]
             }
           ],
           ibm: [
             {
               direction: 'east',
-              coords: [56, 46]
+              coords: [56, 47]
             }
           ],
           nasa: [
             {
               direction: 'east',
-              coords: [52, 50]
+              coords: [53, 51]
             },
             {
               direction: 'north',
-              coords: [43, 41]
+              coords: [43, 40]
             }
           ],
           swiftseat: [
             {
               direction: 'east',
-              coords: [52, 50]
-            },
-            {
-              direction: 'north',
-              coords: [41, 39]
+              coords: [62, 41]
             }
           ],
           charity: [
             {
               direction: 'east',
-              coords: [52, 50]
+              coords: [53, 51]
             },
             {
               direction: 'south',
-              coords: [63, 62]
+              coords: [64, 63]
             },
             {
               direction: 'west',
-              coords: [55, 70]
+              coords: [56.5, 71.5]
             }
           ], 
           gftw: [
             {
               direction: 'east',
-              coords: [52, 50]
+              coords: [53, 51]
             },
             {
               direction: 'south',
-              coords: [63.5, 62.5]
+              coords: [65, 64]
             },
             {
               direction: 'east',
-              coords: [70, 58]
+              coords: [70, 60]
             }
           ],
           dai: [
             {
               direction: 'east',
-              coords: [52, 50]
+              coords: [53, 51]
             },
             {
               direction: 'south',
-              coords: [63.5, 62.5]
+              coords: [65, 64]
             },
             {
               direction: 'east',
-              coords: [83, 44]
+              coords: [85, 44]
             }
           ]
         },
         ibm: {
-          original: [56, 46],
+          original: [56, 47],
           school: [
             {
               direction: 'west',
-              coords: [36, 64]
+              coords: [37, 64]
             }
           ],
           nasa: [
             {
               direction: 'west',
-              coords: [52, 50]
+              coords: [53, 51]
             },  
             {
               direction: 'north',
-              coords: [43, 41]
+              coords: [43, 40]
             }
           ],
           swiftseat: [
             {
-              direction: 'west',
-              coords: [52, 50]
-            },
-            {
-              direction: 'north',
-              coords: [41, 39]
+              direction: 'east',
+              coords: [62, 41]
             }
           ],
           charity: [
             {
               direction: 'west',
-              coords: [52, 50]
+              coords: [53, 51]
             },
             {
               direction: 'south',
-              coords: [63, 62]
+              coords: [64, 63]
             },
             {
               direction: 'west',
-              coords: [55, 70]
+              coords: [56.5, 71.5]
             }
           ], 
            gftw: [
             {
               direction: 'west',
-              coords: [52, 50]
+              coords: [53, 51]
             },
             {
               direction: 'south',
-              coords: [63.5, 62.5]
+              coords: [65, 64]
             },
             {
               direction: 'east',
-              coords: [70, 58]
+              coords: [70, 60]
             }
           ],
           dai: [
             {
               direction: 'west',
-              coords: [52, 50]
+              coords: [53, 51]
             },
             {
               direction: 'south',
-              coords: [63.5, 62.5]
+              coords: [65, 64]
             },
             {
               direction: 'east',
-              coords: [83, 44]
+              coords: [85, 44]
             }
           ]
         },
@@ -173,74 +165,70 @@ export default {
           ibm: [
             {
               direction: 'east',
-              coords: [56, 46]
+              coords: [56, 47]
             }
           ],
           nasa: [
             {
               direction: 'east',
-              coords: [52, 50]
+              coords: [53, 51]
             },
             {
               direction: 'north',
-              coords: [43, 41]
+              coords: [43, 40]
             }
           ],
           swiftseat: [
             {
               direction: 'east',
-              coords: [52, 50]
-            },
-            {
-              direction: 'north',
-              coords: [41, 39]
+              coords: [62, 41]
             }
           ],
           charity: [
             {
               direction: 'east',
-              coords: [52, 50]
+              coords: [53, 51]
             },
             {
               direction: 'south',
-              coords: [63, 62]
+              coords: [64, 63]
             },
             {
               direction: 'west',
-              coords: [55, 70]
+              coords: [56.5, 71.5]
             }
           ], 
           gftw: [
             {
               direction: 'east',
-              coords: [52, 50]
+              coords: [53, 51]
             },
             {
               direction: 'south',
-              coords: [63.5, 62.5]
+              coords: [65, 64]
             },
             {
               direction: 'east',
-              coords: [70, 58]
+              coords: [70, 60]
             }
           ],
           dai: [
             {
               direction: 'east',
-              coords: [52, 50]
+              coords: [53, 51]
             },
             {
               direction: 'south',
-              coords: [63.5, 62.5]
+              coords: [65, 64]
             },
             {
               direction: 'east',
-              coords: [83, 44]
+              coords: [85, 44]
             }
           ]
         },
         nasa: {
-          original: [43, 41],
+          original: [43, 40],
           ibm: [
             {
               direction: 'south',
@@ -248,7 +236,7 @@ export default {
             },
             {
               direction: 'east',
-              coords: [56, 46]
+              coords: [56, 47]
             }
           ],
            school: [
@@ -258,107 +246,119 @@ export default {
             },
             {
               direction: 'west',
-              coords: [36, 64]
+              coords: [37, 64]
             }
           ],
           swiftseat: [
             {
-              direction: 'north',
-              coords: [41, 39]
+              direction: 'south',
+              coords: [49.5, 50.5]
+            },
+            {
+              direction: 'east',
+              coords: [62, 41]
             }
           ],
           charity: [
             {
               direction: 'south',
-              coords: [63, 62]
+              coords: [64, 63]
             },
             {
               direction: 'west',
-              coords: [55, 70]
+              coords: [56.5, 71.5]
             }
           ], 
           gftw: [
             {
               direction: 'south',
-              coords: [63.5, 62.5]
+              coords: [65, 64]
             },
             {
               direction: 'east',
-              coords: [70, 58]
+              coords: [70, 60]
             }
           ],
           dai: [
             {
               direction: 'south',
-              coords: [63.5, 62.5]
+              coords: [65, 64]
             },
             {
               direction: 'east',
-              coords: [83, 44]
+              coords: [85, 44]
             }
           ]
         },
         swiftseat: {
-          original: [41, 39],
+          original: [62, 41],
           ibm: [
             {
-              direction: 'south',
-              coords: [49.5, 50.5]
-            },
-            {
-              direction: 'east',
-              coords: [56, 46]
+              direction: 'west',
+              coords: [56, 47]
             }
           ],
-           school: [
-              {
-              direction: 'south',
-              coords: [50, 50]
-            },
+          school: [
             {
               direction: 'west',
-              coords: [36, 64]
+              coords: [37, 64]
             }
           ],
           nasa: [
             {
-              direction: 'south',
-              coords: [43, 41]
+              direction: 'west',
+              coords: [53, 51]
+            },  
+            {
+              direction: 'north',
+              coords: [43, 40]
             }
           ],
           charity: [
             {
+              direction: 'west',
+              coords: [53, 51]
+            },
+            {
               direction: 'south',
-              coords: [63, 62]
+              coords: [64, 63]
             },
             {
               direction: 'west',
-              coords: [55, 70]
+              coords: [56.5, 71.5]
             }
           ], 
-          gftw: [
+           gftw: [
+            {
+              direction: 'west',
+              coords: [53, 51]
+            },
             {
               direction: 'south',
-              coords: [63.5, 62.5]
+              coords: [65, 64]
             },
             {
               direction: 'east',
-              coords: [70, 58]
+              coords: [70, 60]
             }
           ],
           dai: [
             {
+              direction: 'west',
+              coords: [53, 51]
+            },
+            {
               direction: 'south',
-              coords: [63.5, 62.5]
+              coords: [65, 64]
             },
             {
               direction: 'east',
-              coords: [83, 44]
+              coords: [85, 44]
             }
           ]
         },
         charity: {
-          original: [55, 70],
+          original: [56.5, 71.5],
           ibm: [
             {
               direction: 'east',
@@ -366,11 +366,11 @@ export default {
             },
             {
               direction: 'north',
-              coords: [52, 50]
+              coords: [53, 51]
             },
             {
               direction: 'east',
-              coords: [56, 46]
+              coords: [56, 47]
             }
           ],
           school: [
@@ -384,7 +384,7 @@ export default {
             },
             {
               direction: 'west',
-              coords: [36, 64]
+              coords: [37, 64]
             }
           ],
           nasa: [
@@ -394,7 +394,7 @@ export default {
             },
             {
               direction: 'north',
-              coords: [43, 41]
+              coords: [43, 40]
             }
           ],
           swiftseat: [
@@ -404,28 +404,32 @@ export default {
             },
             {
               direction: 'north',
-              coords: [41, 39]
+              coords: [53, 51]
+            },
+            {
+              direction: 'east',
+              coords: [62, 41]
             }
           ], 
           gftw: [
             {
               direction: 'east',
-              coords: [70, 58]
+              coords: [70, 60]
             }
           ],
           dai: [
             {
               direction: 'east',
-              coords: [83, 44]
+              coords: [85, 44]
             }
           ]
         },
         gftw: {
-          original: [70, 58],
+          original: [70, 60],
           ibm: [
             {
               direction: 'west',
-              coords: [65, 61]
+              coords: [66, 64]
             },
             {
               direction: 'north',
@@ -433,13 +437,13 @@ export default {
             },
             {
               direction: 'east',
-              coords: [56, 46]
+              coords: [56, 47]
             }
           ],
           school: [
             {
               direction: 'west',
-              coords: [65, 61]
+              coords: [66, 64]
             },
             {
               direction: 'north',
@@ -447,48 +451,52 @@ export default {
             },
             {
               direction: 'west',
-              coords: [36, 64]
+              coords: [37, 64]
             }
           ],
           nasa: [
             {
               direction: 'west',
-              coords: [65, 61]
+              coords: [66, 64]
             },
             {
               direction: 'north',
-              coords: [43, 41]
+              coords: [43, 40]
             }
           ],
           swiftseat: [
             {
               direction: 'west',
-              coords: [65, 61]
+              coords: [66, 64]
             },
             {
               direction: 'north',
-              coords: [41, 39]
+              coords: [53, 49]
+            },
+            {
+              direction: 'east',
+              coords: [62, 41]
             }
           ], 
           charity: [
             {
               direction: 'west',
-              coords: [55, 70]
+              coords: [56.5, 71.5]
             }
           ],
           dai: [
             {
               direction: 'east',
-              coords: [83, 44]
+              coords: [85, 44]
             }
           ]
         },
         dai: {
-          original: [83, 44],
+          original: [85, 44],
           ibm: [
             {
               direction: 'west',
-              coords: [65, 61]
+              coords: [66, 64]
             },
             {
               direction: 'north',
@@ -496,13 +504,13 @@ export default {
             },
             {
               direction: 'east',
-              coords: [56, 46]
+              coords: [56, 47]
             }
           ],
           school: [
             {
               direction: 'west',
-              coords: [65, 61]
+              coords: [66, 64]
             },
             {
               direction: 'north',
@@ -510,39 +518,43 @@ export default {
             },
             {
               direction: 'west',
-              coords: [36, 64]
+              coords: [37, 64]
             }
           ],
           nasa: [
             {
               direction: 'west',
-              coords: [65, 61]
+              coords: [66, 64]
             },
             {
               direction: 'north',
-              coords: [43, 41]
+              coords: [43, 40]
             }
           ],
           swiftseat: [
             {
               direction: 'west',
-              coords: [65, 61]
+              coords: [66, 64]
             },
             {
               direction: 'north',
-              coords: [41, 39]
+              coords: [53, 49]
+            },
+            {
+              direction: 'east',
+              coords: [62, 41]
             }
           ], 
           charity: [
             {
               direction: 'west',
-              coords: [55, 70]
+              coords: [56.5, 71.5]
             }
           ],
           gftw: [
             {
-              direction: 'east',
-              coords: [70, 58]
+              direction: 'west',
+              coords: [70, 57]
             }
           ]
         }
@@ -558,6 +570,7 @@ export default {
       this.carImageSrc = images('./car-' + direction + ".png")
     },
     openInfo(moment) {
+      console.log("moment.....", moment)
       setTimeout(function(){
         eventBus.$emit("openInfoBox", {moment});
         eventBus.$emit("showBackButton");
@@ -565,9 +578,13 @@ export default {
     },
     momentClicked(moment) {
 
+      if (moment === this.currentPosition) {
+        this.openInfo(moment);
+        return;
+      }
+
       const { car, island } = this.$refs;      
       // find the array of path needed to execute
-      console.log(this.currentPosition, moment, "");
       let pathArray = this.path[this.currentPosition][moment];
 
       if (pathArray.length < 1) {
@@ -575,6 +592,7 @@ export default {
         return;
       }
       let timeline = gsap.timeline({onComplete: this.openInfo, onCompleteParams: [moment]});
+      // let timeline = gsap.timeline();
       timeline.pause();
 
       const pathArrayFinalIndex = pathArray.length - 1;

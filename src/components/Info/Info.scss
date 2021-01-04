@@ -43,6 +43,7 @@
     background: #41322824;
     color: white;
     width: fit-content;
+    max-width: 300px;
     position: absolute;
     left: 40%;
     top: 60%;
@@ -54,6 +55,8 @@
     color: white;
     position: absolute;
     left: 60%;
-    top: 50%;
+    top: 30%;
+    width: fit-content;
+    max-width: 250px;
   }
 }

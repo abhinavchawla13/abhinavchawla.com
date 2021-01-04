@@ -7,8 +7,8 @@
             <div v-html="desc" class="main-info-desc"></div>
         </div>
         <div class="extra-boxes">
-            <div class="extra-box-1" ref="extraBox1" v-html="box1"></div>
-            <div class="extra-box-2" ref="extraBox2" v-html="box2"></div>
+            <div v-if="box1" class="extra-box-1" ref="extraBox1" v-html="box1"></div>
+            <div v-if="box2" class="extra-box-2" ref="extraBox2" v-html="box2"></div>
         </div>
     </div> 
 </div>
