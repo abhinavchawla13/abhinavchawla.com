@@ -25,7 +25,7 @@
     font-family: "Ilisarniq-Bold";
     font-size: calc(6px + 1vh);
     letter-spacing: 1px;
-    margin-bottom: 15%;
+    margin-bottom: 9%;
   }
 
   .main-info-title {
@@ -35,7 +35,7 @@
   }
 
   .main-info-desc {
-    margin-bottom: 10%;
+    margin-bottom: 3%;
   }
 
   .extra-box-1 {
@@ -54,9 +54,66 @@
     padding: 50px 80px 50px 60px;
     color: white;
     position: absolute;
-    left: 60%;
+    left: 55%;
     top: 30%;
     width: fit-content;
     max-width: 250px;
   }
+
+  .main-info-link {
+    background-color: #ffffff18;
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-right: 25px;
+    animation: pulse-data-v-5ec843cd 5s;
+    -moz-animation: pulse-data-v-5ec843cd 5s infinite;
+    -webkit-animation: pulse-data-v-5ec843cd 5s infinite;
+  }
+
+  .highlight-icon {
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+
+  @-moz-keyframes pulse /* Firefox */ {
+    0% {background: #ffffff18;}
+    50% {background: #ffffff67;}
+    100% {background: #ffffff18;}
 }
+
+@-webkit-keyframes pulse /* Safari and Chrome */ {
+    0% {background: #ffffff18;}
+    50% {background: #ffffff67;}
+    100% {background: #ffffff18;}
+
+  }
+}
+
+
+@media only screen and (max-device-width: 900px) {
+  .main-info {
+    justify-content: flex-end;
+    margin-right: 10%;
+    margin-top: 5%;
+  }
+
+  .main-info-tag {
+    text-align: end;
+  }
+
+  .main-info-title {
+    text-align: end;
+  }
+
+  .main-info-desc {
+    text-align: end;
+  }
+
+  .main-info-link {
+    float: right;
+  }
+}
+

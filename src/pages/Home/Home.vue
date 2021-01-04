@@ -13,8 +13,10 @@ export default {
   name: "Home",
   data: function() {
     return { 
-      totalNumberOfImages: 10,
-      numberOfImgLoaded: 0
+      totalNumberOfImages: 7,
+      numberOfImgLoaded: 0,
+      heavylifters: ['main-island'],
+      heavyliftersLifted: false
     }
   },
   components: {
@@ -36,9 +38,11 @@ export default {
     imageProgress(instance, image) {
       // TODO: Check the top heavy lifter images
         const result = image.isLoaded ? 'loaded' : 'broken';
-        // console.log( 'image is ' + result + ' for ' + image.img.src );
+        console.log( 'image is ' + result + ' for ' + image.img.src );
+
+        if (image.img.src.includes(this.heavylifters[0])) this.heavyliftersLifted = true;
         if (result === 'loaded') this.numberOfImgLoaded++;
-        if ( this.numberOfImgLoaded >= this.totalNumberOfImages ) {
+        if ( this.numberOfImgLoaded >= this.totalNumberOfImages && this.heavyliftersLifted) {
           eventBus.$emit("loadComplete", {});
         }
     }

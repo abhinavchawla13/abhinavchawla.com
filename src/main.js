@@ -4,7 +4,6 @@ import './styles/main.scss';
 import App from './App.vue'
 import VueGtag from "vue-gtag";
 
-
 Vue.config.productionTip = false
 
 const isProd = process.env.NODE_ENV === 'production';

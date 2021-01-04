@@ -582,6 +582,10 @@ export default {
         this.openInfo(moment);
         return;
       }
+      else if (moment === 'boat') {
+        this.openInfo(moment);
+        return;
+      }
 
       const { car, island } = this.$refs;      
       // find the array of path needed to execute

@@ -1,16 +1,16 @@
 <div class="back">
 
     <!-- Hot air balloon 1 -->
-    <img src="../../assets/images/balloon1.png" id="balloon1" ref="balloon1" />
+    <img v-if="!checkMobile()" src="../../assets/images/balloon1.png" id="balloon1" ref="balloon1" />
 
     <!-- Hot cloud 1 -->
-    <img src="../../assets/images/cloud1.png" id="cloud1" ref="cloud1" />
+    <img v-if="!checkMobile()" src="../../assets/images/cloud1.png" id="cloud1" ref="cloud1" />
 
      <!-- Hot cloud 2 -->
-    <img src="../../assets/images/cloud2.png" id="cloud2" ref="cloud2" />
+    <img v-if="!checkMobile()" src="../../assets/images/cloud2.png" id="cloud2" ref="cloud2" />
 
     <!-- Learn more pulse -->
-    <div v-if="showHelperBool" class="info-pulse">CLICK THE HIGHLIGHTED ITEMS TO EXPLORE</div>
+    <div v-if="showHelperBool && !checkMobile()" class="info-pulse">CLICK THE HIGHLIGHTED ITEMS TO EXPLORE</div>
 
     <!-- Base clouds -->
     <img src="../../assets/images/base-cloud.png" id="base-cloud" />
