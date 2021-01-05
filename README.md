@@ -10,9 +10,9 @@ abhinavchawla-bz8lh.ondigitalocean.app))
 You can easily spin up a copy of the project using the deploy button below 🚀
 
  [![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/abhinavchawla13/abhinavchawla.com/tree/master)
- --
  
-## Sneak peak
+ 
+## Sneak peek
 ### Desktop (Primary channel)
 ![screenshot](https://i.imgur.com/uvXWuwz.png)
 
