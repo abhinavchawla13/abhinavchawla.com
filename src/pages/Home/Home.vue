@@ -36,7 +36,6 @@ export default {
       this.$refs.island.$el.style.left = xAxis + "px";
     },
     imageProgress(instance, image) {
-      // TODO: Check the top heavy lifter images
         const result = image.isLoaded ? 'loaded' : 'broken';
         console.log( 'image is ' + result + ' for ' + image.img.src );
 
