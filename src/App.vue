@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <Home v-if="landscapeMode" />
-    <Load v-if="landscapeMode" />
+    <Home v-show="landscapeMode" />
+    <Load v-show="landscapeMode" />
     <div v-if="!landscapeMode" class="landscape-help">
-      <div class="big-font"><b>Please rotate your screen</b></div>
+      <div class="big-font">Please rotate your screen <br> and refresh to load</div>
       <div class="small-font-white">Website only works on landscape mode</div>
-      <div class="small-font">For complete experience, please use a larger screen</div>
+      <div class="small-font">For complete experience, please use a larger screen as the website is primarily built for desktops</div>
     </div>
   </div>
 </template>
@@ -36,10 +36,10 @@ export default {
     }
 
      // this.$ga.page('/');
-    // window.addEventListener(
-    //   "orientationchange",
-    //   this.handleOrientationChange
-    // );
+    window.addEventListener(
+      "orientationchange",
+      this.handleOrientationChange
+    );
     window.onresize = this.handleOrientationChange;
   
   },
