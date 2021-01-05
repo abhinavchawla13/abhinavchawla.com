@@ -12,8 +12,14 @@ You can easily spin up a copy of the project using the deploy button below 🚀
  [![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/abhinavchawla13/abhinavchawla.com/tree/master)
  --
  
-### Sneak peak
+## Sneak peak
+### Desktop (Primary channel)
 ![screenshot](https://i.imgur.com/uvXWuwz.png)
+
+
+### Mobile (Stripped down)
+<img src="https://i.imgur.com/XjUYk5D.png" style="margin-right: 10px" width="700"/> <img src="https://i.imgur.com/iiopAct.png" width="216"/> 
+
 
 ## Project setup
 #### Install dependencies
