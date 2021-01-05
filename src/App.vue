@@ -4,7 +4,7 @@
     <Load v-show="landscapeMode" />
     <div v-if="!landscapeMode" class="landscape-help">
       <div class="big-font">Please rotate your screen</div>
-      <div class="small-font-white">Website only works on landscape mode</div>
+      <div class="small-font-white">Website only works in landscape mode</div>
       <div class="small-font">For a complete experience, please use a larger screen as the website is primarily built for desktops</div>
     </div>
   </div>
