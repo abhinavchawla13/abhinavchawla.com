@@ -1,10 +1,9 @@
 spec:
-  name: abhinavchawla.com
+  name: abhinavchawla
   services:
   - build_command: npm build
     environment_slug: node-js
     git:
       branch: master
-      deploy_on_push: true
       repo_clone_url: https://github.com/abhinavchawla13/abhinavchawla.com.git
-    name: abhinavchawla.com
+    name: abhinavchawla
