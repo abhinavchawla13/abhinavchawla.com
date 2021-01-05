@@ -6,8 +6,4 @@ spec:
     git:
       branch: master
       repo_clone_url: https://github.com/abhinavchawla13/abhinavchawla.com.git
-    env:
-      - keys DANGEROUSLY_DISABLE_HOST_CHECK
-        scope: BUILD_TIME
-        value: true
     name: abhinavchawla
