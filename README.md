@@ -18,7 +18,7 @@ You can easily spin up a copy of the project using the deploy button below 🚀
 
 
 ### Mobile (Stripped down)
-<img src="https://i.imgur.com/XjUYk5D.png" style="margin-right: 10px" width="700"/> <img src="https://i.imgur.com/sPn08Vm.png" width="216"/> 
+<img src="https://i.imgur.com/XjUYk5D.png" style="margin-right: 10px" width="600"/> <img src="https://i.imgur.com/Dg1u2Hw.png" width="216"/> 
 
 
 ## Project setup
