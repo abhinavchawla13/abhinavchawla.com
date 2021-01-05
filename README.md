@@ -1,26 +1,38 @@
-# abhinavchawla.com
+# My Personal Portfolio: [abhinavchawla.com](https://abhinavchawla.com)
+<img src="https://img.shields.io/badge/vuejs%20-%2335495e.svg?&style=for-the-badge&logo=vue.js&logoColor=%234FC08D"/> <img src="https://img.shields.io/badge/DigitalOcean-%230167ff.svg?&style=for-the-badge&logo=digitalOcean&logoColor=white"/> <img src="https://img.shields.io/badge/adobe%20photoshop%20-%2331A8FF.svg?&style=for-the-badge&logo=adobe%20photoshop&logoColor=white"/>
+
+
+
+## Deployment
+Deployed off the master branch at [abhinavchawla.com](https://abhinavchawla.com) via DigitalOcean ([direct DO link](
+abhinavchawla-bz8lh.ondigitalocean.app))
+
+You can easily spin up a copy of the project using the deploy button below 🚀
 
  [![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/abhinavchawla13/abhinavchawla.com/tree/master)
+ --
+ 
+### Sneak peak
+![screenshot](https://i.imgur.com/uvXWuwz.png)
 
 ## Project setup
+#### Install dependencies
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+#### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+#### Compiles and minifies for production
 ```
 npm run build
 ```
 
-### Lints and fixes files
+#### Lints and fixes files
 ```
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
