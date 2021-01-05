@@ -3,8 +3,8 @@ spec:
   services:
   - build_command: npm build
     environment_slug: node-js
-    github:
+    git:
       branch: master
       deploy_on_push: true
-      repo: https://github.com/abhinavchawla13/abhinavchawla.com.git
+      repo_clone_url: https://github.com/abhinavchawla13/abhinavchawla.com.git
     name: abhinavchawla.com
