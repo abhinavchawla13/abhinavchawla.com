@@ -19,12 +19,15 @@ html {
 }
 body {
   top: 0px;
-  min-height: 100vh;
+  min-height: 100%;
   margin: 0;
   font-family: "Ilisarniq";
-  background-image: -webkit-linear-gradient(top, #f4b2a7 40%, #ffbbf3 200%);
-  height: 100%;
-  // overflow: hidden;
+  background: -webkit-linear-gradient(top, #f4b2a7 40%, #ffbbf3 100%) no-repeat center center fixed;
+  background-size: cover; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  // overflow: scroll;
 }
 
 #app {

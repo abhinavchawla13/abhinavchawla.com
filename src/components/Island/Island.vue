@@ -570,7 +570,6 @@ export default {
       this.carImageSrc = images('./car-' + direction + ".png")
     },
     openInfo(moment) {
-      console.log("moment.....", moment)
       setTimeout(function(){
         eventBus.$emit("openInfoBox", {moment});
         eventBus.$emit("showBackButton", moment);
@@ -592,7 +591,6 @@ export default {
       let pathArray = this.path[this.currentPosition][moment];
 
       if (pathArray.length < 1) {
-        console.log("pathArray not found");
         return;
       }
       let timeline = gsap.timeline({onComplete: this.openInfo, onCompleteParams: [moment]});
@@ -607,10 +605,8 @@ export default {
         else if( i == pathArrayFinalIndex) { easeVal = "power1.out"}
         else { easeVal = "none"} 
 
-        console.log(this.currentPosition, 
-        this.path[this.currentPosition])
         if (i == 0) {
-          console.log(this.path[this.currentPosition].original[0], p.coords[0])
+          // console.log(this.path[this.currentPosition].original[0], p.coords[0])
           distance = Math.sqrt(
             (this.path[this.currentPosition].original[0] - p.coords[0])**2 +
             (this.path[this.currentPosition].original[1] - p.coords[1])**2
@@ -645,10 +641,6 @@ export default {
     showIsland() {
       const { island } = this.$refs;
       gsap.to(island, {duration: 1, ease: "power1.in", opacity: 1});
-    },
-    imageProgress(instance, image) {
-        const result = image.isLoaded ? 'loaded' : 'broken';
-        console.log( 'image is ' + result + ' for ' + image.img.src );
     },
     onResize() {
       this.windowHeight = window.innerHeight;

@@ -37,7 +37,7 @@ export default {
     },
     imageProgress(instance, image) {
         const result = image.isLoaded ? 'loaded' : 'broken';
-        console.log( 'image is ' + result + ' for ' + image.img.src );
+        // console.log( 'image is ' + result + ' for ' + image.img.src );
 
         if (image.img.src.includes(this.heavylifters[0])) this.heavyliftersLifted = true;
         if (result === 'loaded') this.numberOfImgLoaded++;

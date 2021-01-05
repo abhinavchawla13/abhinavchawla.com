@@ -3,7 +3,10 @@
     <div class="main-info">
         <div>
             <div class="main-info-tag">{{tag}}</div>
-            <div class="main-info-title">{{title}}</div>
+            <div class="main-info-title">{{title}}
+                <div v-if="date" class="main-info-date">{{date}}</div>
+            </div>
+            
             <div v-html="desc" class="main-info-desc"></div>
             <a v-if="link1" :href="link1" target="_blank"><div class="main-info-link">
                     <img class="highlight-icon" src="../../assets/images/arrow.png"/>
