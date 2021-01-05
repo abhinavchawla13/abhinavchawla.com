@@ -5,5 +5,5 @@ services:
   github:
     branch: main
     deploy_on_push: true
-    repo: abhinavchawla13/abhinavchawla.com
+    repo: https://github.com/abhinavchawla13/abhinavchawla.com
   name: abhinavchawla.com
