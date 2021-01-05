@@ -3,7 +3,7 @@ services:
 - build_command: npm build
   environment_slug: node-js
   github:
-    branch: main
+    branch: master
     deploy_on_push: true
     repo: https://github.com/abhinavchawla13/abhinavchawla.com.git
   name: abhinavchawla.com
