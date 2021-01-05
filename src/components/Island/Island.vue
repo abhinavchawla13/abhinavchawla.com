@@ -573,7 +573,7 @@ export default {
       console.log("moment.....", moment)
       setTimeout(function(){
         eventBus.$emit("openInfoBox", {moment});
-        eventBus.$emit("showBackButton");
+        eventBus.$emit("showBackButton", moment);
       }, 500)
     },
     momentClicked(moment) {
