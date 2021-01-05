@@ -17,6 +17,7 @@ You can easily spin up a copy of the project using the deploy button below 🚀
 
 ## Project setup
 #### Install dependencies
+Make sure you have Node.js (v12+, npm v6+) installed
 ```
 npm install
 ```
