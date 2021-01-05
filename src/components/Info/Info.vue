@@ -76,7 +76,7 @@ export default {
           The carpool platform was acquired by a Toronto based mobility startup namely SwiftRide in July 2019.`,
           box1: `Created a mobile application (Android, iOS) providing features including long-term grouping, localized searching, secure payments, real-time notifications and chat`,
           box2: `Partnered with Velocia, a mobility rewards ecosystem, for their Pilot launch in Miami (Florida, USA) as a carpool service in the network.`,
-          link1: `https://www.swiftseat.co`
+          link1: `https://swiftseat-backup.web.app`
         },
         boat: {
           tag: 'Just for fun',
